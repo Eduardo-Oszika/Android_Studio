@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Exemplo_app_lanchonete</string>
+    <string name="textView_cardapio">Cardápio</string>
+    <string name="calcular">calcular</string>
+    <string name="caf">Café</string>
+    <string name="bolo">Bolo</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="valor_da_unidade_r_2_00">Valor da unidade R$ 2,00</string>
+</resources>
