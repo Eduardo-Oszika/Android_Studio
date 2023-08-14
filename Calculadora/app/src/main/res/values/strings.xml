@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="digite_um_numero">Digite um numero</string>
+    <string name="digite_o_numero_aqui">digite o numero aqui</string>
+    <string name="digite_o_operador">Digite o operador (+,-,*,/)</string>
+    <string name="digite_o_operador_aqui">digite o operador aqui</string>
+    <string name="digite_outro_numero">Digite outro numero</string>
+    <string name="resultado">resultado</string>
+</resources>
