@@ -1,0 +1,26 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id altura
+id calcular
+id classificacao
+id peso
+id resultado2
+layout activity_main
+layout activity_segunda
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string calcular
+string digite_seu_pes
+string digite_seu_peso
+string digite_sua_altur
+string digite_sua_altura
+string resultado
+style Base.Theme.IMC
+style Theme.IMC
+xml backup_rules
+xml data_extraction_rules
