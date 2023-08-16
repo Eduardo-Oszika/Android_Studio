@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="TextView_rotulo">Responda a Pergunta</string>
+    <string name="textView_pergunta">1-qual o nome da empresa proprietaria do android?</string>
+</resources>
