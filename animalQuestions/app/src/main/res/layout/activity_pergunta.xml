@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    tools:context=".PerguntaActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:paddingTop="20dp"
+        android:text="@string/textview_perguntas"/>
+
+    <TextView
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="@string/textView_pergunta_sobre_leao"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tem um pescoço grande"
+            android:onClick="resposta"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ele é muito lento"
+            android:onClick="resposta"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ELe tem uma Juba enorme"
+            android:onClick="resposta"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tem orelhas enormes"
+            android:onClick="resposta"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+    </RadioGroup>
+
+
+</LinearLayout>
