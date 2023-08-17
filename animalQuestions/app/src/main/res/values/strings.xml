@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">animalQuestions</string>
+    <string name="textview_animal_elefante">Animal: Elefante</string>
+    <string name="textview_caracteristicaElefante">Características: Orelhas Grandes, Grande Porte, Inteligente, Nariz Comprido, Pegada Grande, Memoria Boa</string>
+    <string name="textview_animal_leao">Animal: Leão</string>
+    <string name="textview_caracteristicaLeao">Caracteristicas: Juba Grande, Dentes afiados, Carnivoro, Dourado, Rei da Selva</string>
+    <string name="textView_pergunta_sobre_leao">Qual das opções abaixo são caracteristicas de um leão? </string>
+    <string name="textview_perguntas">Perguntas:</string>
+    <string name="acertou">Acertou</string>
+    <string name="parabens">Parabens você acertou a pergunta</string>
+    <string name="errou">Errou</string>
+    <string name="voc_errou">Você errou mais tente de novo</string>
+</resources>
