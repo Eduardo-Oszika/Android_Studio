@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/bolo"
+        android:title="bolo"/>
+    <item android:id="@+id/salgado"
+        android:title="salgado"/>
+    <item android:id="@+id/torta"
+        android:title="torta"/>
+</menu>
