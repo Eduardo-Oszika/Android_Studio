@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ExemploalertDialogFragment</string>
+    <string-array name="semana">
+        <item>segunda-Feira</item>
+        <item>terça-Feira</item>
+        <item>quarta-Feira</item>
+        <item>quinta-Feira</item>
+        <item>sexta-Feira</item>
+    </string-array>
+</resources>
