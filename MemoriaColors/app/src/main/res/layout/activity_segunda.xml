@@ -8,6 +8,7 @@
     android:id="@+id/backgroundColors"
     tools:context=".SegundaActivity">
     <TextView
+        android:id="@+id/textCor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="texto"/>

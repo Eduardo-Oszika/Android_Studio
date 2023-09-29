@@ -13,6 +13,12 @@
         android:theme="@style/Theme.MemoriaColors"
         tools:targetApi="31">
         <activity
+            android:name=".QuestionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GabaritoActivity"
+            android:exported="false" />
+        <activity
             android:name=".TerceiraActivity"
             android:exported="false" />
         <activity

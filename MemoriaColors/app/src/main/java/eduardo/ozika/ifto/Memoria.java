@@ -1,5 +1,6 @@
 package eduardo.ozika.ifto;
 
+
 import java.io.Serializable;
 
 public class Memoria implements Serializable {

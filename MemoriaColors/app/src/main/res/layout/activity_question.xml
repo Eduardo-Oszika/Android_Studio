@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".QuestionActivity">
+    <TextView
+        android:id="@+id/textViewUserInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome: John Doe\nIdade: 30"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp">
+
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageViewColor1"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:visibility="invisible"
+                android:contentDescription="Sorriso"/>
+            <EditText
+                android:id="@+id/editTextColor1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Cor 1"
+                android:inputType="text"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageViewColor2"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:visibility="invisible"
+                android:contentDescription="Sorriso"/>
+            <EditText
+                android:id="@+id/editTextColor2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Cor 2"
+                android:inputType="text"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageViewColor3"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:visibility="invisible"
+                android:contentDescription="Sorriso"/>
+            <EditText
+                android:id="@+id/editTextColor3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Cor 3"
+                android:inputType="text"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageViewColor4"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:visibility="invisible"
+                android:contentDescription="Sorriso"/>
+            <EditText
+                android:id="@+id/editTextColor4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Cor 4"
+                android:inputType="text"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageViewColor5"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:visibility="invisible"
+                android:contentDescription="Sorriso"/>
+            <EditText
+                android:id="@+id/editTextColor5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Cor 5"
+                android:inputType="text"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageViewColor6"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:visibility="invisible"
+                android:contentDescription="Sorriso"/>
+            <EditText
+                android:id="@+id/editTextColor6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Cor 6"
+                android:inputType="text"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageViewColor7"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:visibility="invisible"
+                android:contentDescription="Sorriso"/>
+            <EditText
+                android:id="@+id/editTextColor7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Cor 7"
+                android:inputType="text"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageViewColor8"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:visibility="invisible"
+                android:contentDescription="Sorriso"/>
+            <EditText
+                android:id="@+id/editTextColor8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Cor 8"
+                android:inputType="text"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageViewColor9"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:visibility="invisible"
+                android:contentDescription="Sorriso"/>
+            <EditText
+                android:id="@+id/editTextColor9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Cor 9"
+                android:inputType="text"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageViewColor10"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:visibility="invisible"
+                android:contentDescription="Sorriso"/>
+            <EditText
+                android:id="@+id/editTextColor10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Cor 10"
+                android:inputType="text"
+                android:gravity="center"/>
+        </TableRow>
+
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/buttonGuess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adivinhar"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
