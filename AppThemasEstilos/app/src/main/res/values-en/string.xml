@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppThemeAndStyles</string>
+    <string name="clique">Click</string>
+    <string name="digite_um_n_mero">type a nunber</string>
+    <string name="ola_mundo">hello word</string>
+    <string name="oiiii">hiii</string>
+</resources>

@@ -2,4 +2,20 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="yellow">#FFFFFF00</color>
+    <color name="blue">#0000FF</color>
+    <color name="green">#00ff00</color>
+    <color name="purple">#800080</color>
+    <color name="pink">#ffc0cb</color>
+    <color name="brown">#964b00</color>
+    <color name="gray">#808080</color>
+    <color name="wine">#5e2129</color>
+    <color name="gold">#d4af37</color>
+    <color name="teal">#008080</color>
+    <color name="orange">#ffa500</color>
+    <color name="beige">#e8dcca</color>
+    <color name="lilac">#c8a2c8</color>
+    <color name="green_aqua">#00c0a3</color>
+
 </resources>

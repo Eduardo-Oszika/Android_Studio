@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AppThemasEstilos</string>
+    <string name="clique">Clique</string>
+    <string name="digite_um_n_mero">digite um número</string>
+    <string name="ola_mundo">Ola mundo</string>
+    <string name="oiiii">OIIII</string>
 </resources>

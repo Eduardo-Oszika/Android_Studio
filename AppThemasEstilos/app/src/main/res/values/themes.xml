@@ -3,7 +3,33 @@
     <style name="Base.Theme.AppThemasEstilos" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimaryDark">@color/brown</item>
+        <item name="colorAccent">@color/red</item>
+
     </style>
 
     <style name="Theme.AppThemasEstilos" parent="Base.Theme.AppThemasEstilos" />
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/green</item>
+        <item name="colorAccent">@color/green_aqua</item>
+    </style>
+    <style name="CodeFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:typeface">monospace</item>
+
+    </style>
+    <style name="Numbers">
+        <item name="android:inputType">number</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/brown</item>
+    </style>
+
+    <style name="buttonCuston" parent="android:Widget">
+        <item name="android:background">@drawable/button_cudton</item>
+    </style>
 </resources>
