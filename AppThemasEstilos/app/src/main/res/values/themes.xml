@@ -23,10 +23,8 @@
 
     </style>
     <style name="Numbers">
-        <item name="android:inputType">number</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">@color/brown</item>
+        <item name="android:drawableLeft">number</item>
+        <item name="android:drawablePadding">10dp</item>
     </style>
 
     <style name="buttonCuston" parent="android:Widget">
