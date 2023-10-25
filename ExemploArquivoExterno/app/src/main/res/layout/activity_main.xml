@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu nome" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/buttonS"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+
+            android:layout_weight="1"
+            android:text="SALVAR" />
+
+
+        <Button
+            android:id="@+id/buttonE"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+
+            android:layout_weight="1"
+            android:text="EXCLUIR" />
+
+        <Button
+            android:id="@+id/buttonL"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+
+            android:layout_weight="1"
+            android:text="LER" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewLeitura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
