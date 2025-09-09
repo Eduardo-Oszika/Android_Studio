@@ -6,4 +6,6 @@
     <string name="bolo">Bolo</string>
     <string name="adicionar">Adicionar</string>
     <string name="valor_da_unidade_r_2_00">Valor da unidade R$ 2,00</string>
+    <string name="imagem_de_cafe">imagem de cafe</string>
+    <string name="imagem_de_bolo">imagem de bolo</string>
 </resources>

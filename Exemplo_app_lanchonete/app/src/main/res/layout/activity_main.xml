@@ -26,6 +26,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="escolher"
+                android:contentDescription="@string/imagem_de_cafe"
                 android:id="@+id/image_cafe"
                 android:src="@drawable/cafe"/>
             <ImageView
@@ -33,6 +34,7 @@
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:onClick="escolher"
+                android:contentDescription="@string/imagem_de_bolo"
                 android:id="@+id/image_bolo"
                 android:src="@drawable/bolo"/>
         </TableRow>
@@ -52,7 +54,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:background="@color/ciano50"
+                android:backgroundTint="@color/ciano50"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:text="@string/bolo"/>
         </TableRow>
